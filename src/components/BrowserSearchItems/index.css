@@ -1,0 +1,64 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  margin: 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeAccessed {
+  color: #64748b;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.url {
+  color: #64748b;
+}
+
+.delete-icon {
+  color: #475569;
+  background-color: #ffffff;
+}
+
+.button1 {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+
+  margin-left: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.domain {
+  display: flex;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: space-between;
+}
+
+.no {
+  text-align: center;
+  font-weight: bolder;
+}
